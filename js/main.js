@@ -1,5 +1,16 @@
 const video = document.querySelector("#opening");
 
+    gsap.from("#menu", {
+    opacity:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=600px top",
+      end: "top+=900px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
 video.addEventListener("loadedmetadata", () => {
 
   gsap.to(video, {
@@ -8,7 +19,7 @@ video.addEventListener("loadedmetadata", () => {
     scrollTrigger: {
       trigger: timeline,
       start: "top top",
-      end: "top+=600px top",
+      end: "top+=900px top",
       scrub: true,
       markers: true
     }
@@ -18,8 +29,8 @@ video.addEventListener("loadedmetadata", () => {
     opacity:0,
     scrollTrigger: {
       trigger: timeline,
-      start: "top+=600px top",
-      end: "top+=900px top",
+      start: "top+=900px top",
+      end: "top+=1200px top",
       scrub: true,
       markers: true
     }
