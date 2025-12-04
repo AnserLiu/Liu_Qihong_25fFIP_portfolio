@@ -9,6 +9,22 @@
   pointer-events: none !important;
 }
 
+#menu{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    transform: translate(calc(-50% - 200px), -50%);
+    top: 30px;
+    left: 50%;
+    opacity: 1;
+}
+
+.menu_item{
+    color: #D4F0FF;
+    list-style: none;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 
 #opening {
