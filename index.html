@@ -7,9 +7,7 @@
     <title>Stone & Stem Winery</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
@@ -18,16 +16,161 @@
     <video id="opening" src="images/opening2.mp4" preload="auto"></video>
 
     <ul id="menu">
-        <li class="menu_item">Home</li>
-        <li class="menu_item">Projects</li>
-        <li class="menu_item">About</li>
-        <li class="menu_item">Contact</li>
+        <li class="menu_item" id="menu-home">Home</li>
+        <li class="menu_item" id="menu-project">Projects</li>
+        <li class="menu_item" id="menu-about">About</li>
+        <li class="menu_item" id="menu-contact">Contact</li>
+    </ul>
+
+    <ul class="project_list">
+        <h2 class="hidden">My Projects List</h2>
+        <li id="kidkid" class="project">
+            <h3 class="hidden">kidkid project discription</h3>
+            <a href="#" class="project_title" id="kidkidProjectTitle">KidKid Channel</a>
+            <ul class="tool_list" id="kidkid_tool">
+                <li class="tool">
+                    <img src="images/cinema4D_icon.png" class="tool_icon">
+                </li>
+                <li class="tool">
+                    <img src="images/figma_icon.png" class="tool_icon">
+                </li>
+                <li class="tool">
+                    <img src="images/AE_icon.png" class="tool_icon">
+                </li>
+            </ul>
+            <p class="project_text" id="kidkidProjectText">
+                Project Type: Individual<br><br>
+                This is project text. This is project text. This is project text. This is project text. 
+                This is project text. This is project text. This is project text. This is project text. This is project text. 
+                This is project text. This is project text. This is project text. This is project text. 
+            </p>
+            <img class="mask" src="images/mask_test8.svg">
+            <img class="project_img" id="kidkidProjectImg" src="images/kidkidPJ.png">         
+        </li>
+
+
+
+        <li id="CFRoom" class="project">
+            <h3 class="hidden">ComfortRoom project discription</h3>
+            <a href="#" class="project_title" id="CFRoomProjectTitle" >ComfortRoom</a>
+            <p class="project_text" id="CFRoomProjectText">
+                Project Type: Group (Role: Graphic design, UI design)<br><br>
+                This is project text. This is project text. This is project text. This is project text. 
+                This is project text. This is project text. This is project text. This is project text. This is project text. 
+                This is project text. This is project text. This is project text. This is project text. 
+            </p>
+            <ul class="tool_list" id="CFRoom_tool">
+                <li class="tool">
+                    <img src="images/figma_icon.png" class="tool_icon">
+                </li>
+                <li class="tool">
+                    <img src="images/Ai_icon.png" class="tool_icon">
+                </li>
+            </ul>
+            <img class="mask" src="images/mask_test8.svg">
+            <img class="project_img" id="CFRoomProjectImg" src="images/CFRoomPJ.png">
+        </li>
+
+
+
+        <li id="YY" class="project">
+            <h3 class="hidden">Yin&Yang earbuds project discription</h3>
+            <a href="#" class="project_title" id="YYProjectTitle" >Yin&Yang</a>
+            <p class="project_text" id="YYProjectText">
+                Project Type: Individual<br><br>
+                This is project text. This is project text. This is project text. This is project text. 
+                This is project text. This is project text. This is project text. This is project text. This is project text. 
+                This is project text. This is project text. This is project text. This is project text. 
+            </p>
+            <ul class="tool_list" id="YY_tool">
+                <li class="tool">
+                    <img src="images/AE_icon.png" class="tool_icon">
+                </li>
+                <li class="tool">
+                    <img src="images/cinema4D_icon.png" class="tool_icon">
+                </li>
+            </ul>
+            <img class="mask" src="images/mask_test8.svg">
+            <img class="project_img" id="YYProjectImg" src="images/YYPJ.png">
+        </li>
+
+        <li id="obz" class="project">
+            <h3 class="hidden">Orbitz drink project discription</h3>
+            <a href="#" class="project_title" id="obzProjectTitle" >Orbitz</a>
+            <p class="project_text" id="obzProjectText">
+                Project Type: Group (Role: Product design, Motion design, Graphic design)<br><br>
+                This is project text. This is project text. This is project text. This is project text. 
+                This is project text. This is project text. This is project text. This is project text. This is project text. 
+                This is project text. This is project text. This is project text. This is project text. 
+            </p>
+            <ul class="tool_list" id="obz_tool">
+                <li class="tool">
+                    <img src="images/cinema4D_icon.png" class="tool_icon">
+                </li>
+                <li class="tool">
+                    <img src="images/figma_icon.png" class="tool_icon">
+                </li>
+                <li class="tool">
+                    <img src="images/AE_icon.png" class="tool_icon">
+                </li>
+            </ul>
+            <img class="mask" src="images/mask_test8.svg">
+            <img class="project_img" id="obzProjectImg" src="images/obzPJ.png">
+        </li>
+
+        <li id="CC" class="project">
+            <h3 class="hidden">Ceci make-up brand project discription</h3>
+            <a href="#" class="project_title" id="CCProjectTitle" >Ceci</a>
+            <p class="project_text" id="CCProjectText">
+                Project Type: Group (Role: Motion design, Graphic design)<br><br>
+                This is project text. This is project text. This is project text. This is project text. 
+                This is project text. This is project text. This is project text. This is project text. This is project text. 
+                This is project text. This is project text. This is project text. This is project text. 
+            </p>
+            <ul class="tool_list" id="CC_tool">
+                <li class="tool">
+                    <img src="images/cinema4D_icon.png" class="tool_icon">
+                </li>
+                <li class="tool">
+                    <img src="images/AE_icon.png" class="tool_icon">
+                </li>
+            </ul>
+            <img class="mask" src="images/mask_test8.svg">
+            <img class="project_img" id="CCProjectImg" src="images/CCPJ.png">
+        </li>
     </ul>
 
 
 
+    <ul id="project_preview">
+        <li class="preview_item" id="kidkid_preview">
+            <img src="images/kidkidPJPV.png">
+        </li>
+        <li class="preview_item" id="CFRoom_preview">
+            <img src="images/CFRoomPJPV.png">
+        </li>
+        <li class="preview_item" id="YY_preview">
+            <img src="images/YYPJPV.png">
+        </li>
+        <li class="preview_item" id="obz_preview">
+            <img src="images/obzPJPV.png">
+        </li>
+        <li class="preview_item" id="CC_preview">
+            <img src="images/CCPJPV.png">
+        </li>
+    </ul>
+
+
+
+
+
+    <script>
+    history.scrollRestoration = "manual";
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>
