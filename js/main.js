@@ -46,7 +46,9 @@ video.addEventListener("loadedmetadata", () => {
 // kidkid
 
     gsap.fromTo("#project_preview", {
+      opacity:0,
       x:340,},{
+      opacity:1,
       x:0,
     scrollTrigger: {
       trigger: timeline,
@@ -87,7 +89,7 @@ video.addEventListener("loadedmetadata", () => {
     }
   });
 
-    gsap.fromTo(["#kidkidProjectText","#kidkidProjectTitle","#kidkid_tool"], {
+    gsap.fromTo(["#kidkidProjectText","#kidkidProjectTitle","#kidkid_tool","#kidkid_to_detail"], {
     opacity:0,
     x:300,
     y:-100,},{
@@ -122,7 +124,7 @@ video.addEventListener("loadedmetadata", () => {
     }
   });
 
-    gsap.fromTo(["#kidkidProjectTitle","#kidkid_tool","#kidkidProjectText"],{
+    gsap.fromTo(["#kidkidProjectTitle","#kidkid_tool","#kidkidProjectText","#kidkid_to_detail"],{
     opacity:1,
     x:0,
     y:0} ,
@@ -210,7 +212,7 @@ video.addEventListener("loadedmetadata", () => {
     }
   });
 
-    gsap.fromTo(["#CFRoomProjectText","#CFRoomProjectTitle","#CFRoom_tool"], {
+    gsap.fromTo(["#CFRoomProjectText","#CFRoomProjectTitle","#CFRoom_tool","#CFRoom_to_detail"], {
     opacity:0,
     x:300,
     y:-100,},{
@@ -245,7 +247,7 @@ video.addEventListener("loadedmetadata", () => {
     }
   });
 
-    gsap.fromTo(["#CFRoomProjectTitle","#CFRoom_tool","#CFRoomProjectText"],{
+    gsap.fromTo(["#CFRoomProjectTitle","#CFRoom_tool","#CFRoomProjectText","#CFRoom_to_detail"],{
     opacity:1,
     x:0,
     y:0} ,
@@ -332,7 +334,7 @@ video.addEventListener("loadedmetadata", () => {
     }
   });
 
-    gsap.fromTo(["#YYProjectText","#YYProjectTitle","#YY_tool"], {
+    gsap.fromTo(["#YYProjectText","#YYProjectTitle","#YY_tool","#YY_to_detail"], {
     opacity:0,
     x:300,
     y:-100,},{
@@ -367,7 +369,7 @@ video.addEventListener("loadedmetadata", () => {
     }
   });
 
-    gsap.fromTo(["#YYProjectTitle","#YY_tool","#YYProjectText"],{
+    gsap.fromTo(["#YYProjectTitle","#YY_tool","#YYProjectText","#YY_to_detail"],{
     opacity:1,
     x:0,
     y:0,} ,
@@ -454,7 +456,7 @@ video.addEventListener("loadedmetadata", () => {
     }
   });
 
-    gsap.fromTo(["#obzProjectText","#obzProjectTitle","#obz_tool"], {
+    gsap.fromTo(["#obzProjectText","#obzProjectTitle","#obz_tool","#obz_to_detail"], {
     opacity:0,
     x:300,
     y:-100,},{
@@ -478,8 +480,8 @@ video.addEventListener("loadedmetadata", () => {
     y:0,} ,
     {
     opacity:0,
-    x:-300,
-    y:100,
+    x:300,
+    y:-100,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=3600px top",
@@ -489,7 +491,7 @@ video.addEventListener("loadedmetadata", () => {
     }
   });
 
-    gsap.fromTo(["#obzProjectTitle","#obz_tool","#obzProjectText"],{
+    gsap.fromTo(["#obzProjectTitle","#obz_tool","#obzProjectText","#obz_to_detail"],{
     opacity:1,
     x:0,
     y:0,} ,
@@ -576,7 +578,7 @@ video.addEventListener("loadedmetadata", () => {
     }
   });
 
-    gsap.fromTo(["#CCProjectText","#CCProjectTitle","#CC_tool"], {
+    gsap.fromTo(["#CCProjectText","#CCProjectTitle","#CC_tool","#CC_to_detail"], {
     opacity:0,
     x:300,
     y:-100,},{
@@ -611,7 +613,7 @@ video.addEventListener("loadedmetadata", () => {
     }
   });
 
-    gsap.fromTo(["#CCProjectTitle","#CC_tool","#CCProjectText"],{
+    gsap.fromTo(["#CCProjectTitle","#CC_tool","#CCProjectText","#CC_to_detail"],{
     opacity:1,
     x:0,
     y:0,} ,
@@ -805,12 +807,12 @@ video.addEventListener("loadedmetadata", () => {
     gsap.fromTo("#logo_L_left",{
     scale:1,
     x:0,
-    y:0,
+    y:"0vh",
     rotation:0,} ,
     {
     scale:0.3,
     x:0,
-    y:-300,
+    y:"-27vh",
     rotation:180,
     scrollTrigger: {
       trigger: timeline,
@@ -824,12 +826,12 @@ video.addEventListener("loadedmetadata", () => {
     gsap.fromTo("#logo_L_bottom",{
     scale:1,
     x:0,
-    y:0,
+    y:"0vh",
     rotation:0,} ,
     {
     scale:0.3,
     x:0,
-    y:-300,
+    y:"-27vh",
     rotation:180,
     scrollTrigger: {
       trigger: timeline,
@@ -843,12 +845,12 @@ video.addEventListener("loadedmetadata", () => {
     gsap.fromTo("#logo_A_slash",{
     scale:1,
     x:0,
-    y:0,
+    y:"0vh",
     rotation:0,} ,
     {
     scale:0.3,
     x:0,
-    y:-300,
+    y:"-27vh",
     rotation:180,
     scrollTrigger: {
       trigger: timeline,
@@ -862,12 +864,12 @@ video.addEventListener("loadedmetadata", () => {
     gsap.fromTo("#logo_A_dash",{
     scale:1,
     x:0,
-    y:0,
+    y:"0vh",
     rotation:0,} ,
     {
     scale:0.3,
     x:0,
-    y:-300,
+    y:"-27vh",
     rotation:180,
     scrollTrigger: {
       trigger: timeline,
@@ -990,7 +992,7 @@ video.addEventListener("loadedmetadata", () => {
     gsap.fromTo("#logo_L_left",{
     scale:0.3,
     x:0,
-    y:-300,
+    y:"-27vh",
     rotation:180,
     opacity:1,
     } ,
@@ -998,7 +1000,7 @@ video.addEventListener("loadedmetadata", () => {
     opacity:0,
     scale:0.6,
     x:-33,
-    y:-200,
+    y:"-19vh",
     rotation:180,
     scrollTrigger: {
       trigger: timeline,
@@ -1012,7 +1014,7 @@ video.addEventListener("loadedmetadata", () => {
     gsap.fromTo("#logo_L_bottom",{
     scale:0.3,
     x:0,
-    y:-300,
+    y:"-27vh",
     rotation:180,
     opacity:1,
     } ,
@@ -1020,7 +1022,7 @@ video.addEventListener("loadedmetadata", () => {
     opacity:0,
     scale:0.6,
     x:100,
-    y:-300,
+    y:"-27vh",
     rotation:180,
     scrollTrigger: {
       trigger: timeline,
@@ -1034,7 +1036,7 @@ video.addEventListener("loadedmetadata", () => {
     gsap.fromTo("#logo_A_slash",{
     scale:0.3,
     x:0,
-    y:-300,
+    y:"-27vh",
     rotation:180,
     opacity:1,
     } ,
@@ -1042,7 +1044,7 @@ video.addEventListener("loadedmetadata", () => {
     opacity:0,
     scale:0.6,
     x:-33,
-    y:-400,
+    y:"-35vh",
     rotation:180,
     scrollTrigger: {
       trigger: timeline,
@@ -1056,7 +1058,7 @@ video.addEventListener("loadedmetadata", () => {
     gsap.fromTo("#logo_A_dash",{
     scale:0.3,
     x:0,
-    y:-300,
+    y:"-27vh",
     rotation:180,
     opacity:1,
     } ,
@@ -1064,7 +1066,7 @@ video.addEventListener("loadedmetadata", () => {
     opacity:0,
     scale:0.6,
     x:-33,
-    y:-300,
+    y:"-27vh",
     rotation:180,
     scrollTrigger: {
       trigger: timeline,
@@ -1087,7 +1089,7 @@ video.addEventListener("loadedmetadata", () => {
     x:100,
     y:-300,
     rotation:0,
-    opacity:1,
+    opacity:0,
     } ,
     {
     opacity:1,
@@ -1109,7 +1111,7 @@ video.addEventListener("loadedmetadata", () => {
     x:-300,
     y:0,
     rotation:0,
-    opacity:1,
+    opacity:0,
     } ,
     {
     opacity:1,
@@ -1131,7 +1133,7 @@ video.addEventListener("loadedmetadata", () => {
     x:100,
     y:300,
     rotation:0,
-    opacity:1,
+    opacity:0,
     } ,
     {
     opacity:1,
@@ -1153,7 +1155,7 @@ video.addEventListener("loadedmetadata", () => {
     x:300,
     y:0,
     rotation:0,
-    opacity:1,
+    opacity:0,
     } ,
     {
     opacity:1,
