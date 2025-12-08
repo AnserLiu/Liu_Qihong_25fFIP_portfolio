@@ -1,3 +1,5 @@
+console.log("js connected")
+
 const video = document.querySelector("#opening");
 
     gsap.fromTo("#menu", {
@@ -71,8 +73,8 @@ video.addEventListener("loadedmetadata", () => {
 // 
     gsap.fromTo("#kidkidProjectImg", {
     opacity:0,
-    x:300,
-    y:-100},{
+    x:-300,
+    y:100,},{
       opacity:1,
       x:0,
       y:0,
@@ -87,8 +89,8 @@ video.addEventListener("loadedmetadata", () => {
 
     gsap.fromTo(["#kidkidProjectText","#kidkidProjectTitle","#kidkid_tool"], {
     opacity:0,
-    x:-300,
-    y:100},{
+    x:300,
+    y:-100,},{
         opacity:1,
         x:0,
         y:0,
@@ -109,8 +111,8 @@ video.addEventListener("loadedmetadata", () => {
     y:0} ,
     {
     opacity:0,
-    x:-300,
-    y:100,
+    x:300,
+    y:-100,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=1800px top",
@@ -126,8 +128,8 @@ video.addEventListener("loadedmetadata", () => {
     y:0} ,
     {
     opacity:0,
-    x:300,
-    y:-100,
+    x:-300,
+    y:100,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=1800px top",
@@ -194,8 +196,8 @@ video.addEventListener("loadedmetadata", () => {
 // 
     gsap.fromTo("#CFRoomProjectImg", {
     opacity:0,
-    x:300,
-    y:-100},{
+    x:-300,
+    y:100,},{
       opacity:1,
       x:0,
       y:0,
@@ -210,8 +212,8 @@ video.addEventListener("loadedmetadata", () => {
 
     gsap.fromTo(["#CFRoomProjectText","#CFRoomProjectTitle","#CFRoom_tool"], {
     opacity:0,
-    x:-300,
-    y:100},{
+    x:300,
+    y:-100,},{
         opacity:1,
         x:0,
         y:0,
@@ -232,8 +234,8 @@ video.addEventListener("loadedmetadata", () => {
     y:0} ,
     {
     opacity:0,
-    x:-300,
-    y:100,
+    x:300,
+    y:-100,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=2400px top",
@@ -249,8 +251,8 @@ video.addEventListener("loadedmetadata", () => {
     y:0} ,
     {
     opacity:0,
-    x:300,
-    y:-100,
+    x:-300,
+    y:100,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=2400px top",
@@ -316,8 +318,8 @@ video.addEventListener("loadedmetadata", () => {
 // 
     gsap.fromTo("#YYProjectImg", {
     opacity:0,
-    x:300,
-    y:-100},{
+    x:-300,
+    y:100,},{
       opacity:1,
       x:0,
       y:0,
@@ -332,8 +334,8 @@ video.addEventListener("loadedmetadata", () => {
 
     gsap.fromTo(["#YYProjectText","#YYProjectTitle","#YY_tool"], {
     opacity:0,
-    x:-300,
-    y:100},{
+    x:300,
+    y:-100,},{
         opacity:1,
         x:0,
         y:0,
@@ -354,8 +356,8 @@ video.addEventListener("loadedmetadata", () => {
     y:0,} ,
     {
     opacity:0,
-    x:-300,
-    y:100,
+    x:300,
+    y:-100,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=3000px top",
@@ -371,8 +373,8 @@ video.addEventListener("loadedmetadata", () => {
     y:0,} ,
     {
     opacity:0,
-    x:300,
-    y:-100,
+    x:-300,
+    y:100,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=3000px top",
@@ -438,8 +440,8 @@ video.addEventListener("loadedmetadata", () => {
 // 
     gsap.fromTo("#obzProjectImg", {
     opacity:0,
-    x:300,
-    y:-100},{
+    x:-300,
+    y:100,},{
       opacity:1,
       x:0,
       y:0,
@@ -454,8 +456,8 @@ video.addEventListener("loadedmetadata", () => {
 
     gsap.fromTo(["#obzProjectText","#obzProjectTitle","#obz_tool"], {
     opacity:0,
-    x:-300,
-    y:100},{
+    x:300,
+    y:-100,},{
         opacity:1,
         x:0,
         y:0,
@@ -476,8 +478,8 @@ video.addEventListener("loadedmetadata", () => {
     y:0,} ,
     {
     opacity:0,
-    x:300,
-    y:-100,
+    x:-300,
+    y:100,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=3600px top",
@@ -493,8 +495,8 @@ video.addEventListener("loadedmetadata", () => {
     y:0,} ,
     {
     opacity:0,
-    x:300,
-    y:-100,
+    x:-300,
+    y:100,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=3600px top",
@@ -560,8 +562,8 @@ video.addEventListener("loadedmetadata", () => {
 // 
     gsap.fromTo("#CCProjectImg", {
     opacity:0,
-    x:300,
-    y:-100},{
+    x:-300,
+    y:100,},{
       opacity:1,
       x:0,
       y:0,
@@ -576,8 +578,8 @@ video.addEventListener("loadedmetadata", () => {
 
     gsap.fromTo(["#CCProjectText","#CCProjectTitle","#CC_tool"], {
     opacity:0,
-    x:-300,
-    y:100},{
+    x:300,
+    y:-100,},{
         opacity:1,
         x:0,
         y:0,
@@ -598,8 +600,8 @@ video.addEventListener("loadedmetadata", () => {
     y:0,} ,
     {
     opacity:0,
-    x:-300,
-    y:100,
+    x:300,
+    y:-100,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=4200px top",
@@ -615,8 +617,8 @@ video.addEventListener("loadedmetadata", () => {
     y:0,} ,
     {
     opacity:0,
-    x:300,
-    y:-100,
+    x:-300,
+    y:100,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=4200px top",
@@ -627,12 +629,14 @@ video.addEventListener("loadedmetadata", () => {
   });
 // 
     gsap.fromTo("#project_preview", {
-      x:-1020,},{
-      x:-1190,
+      opacity:1,
+      x:-1360,},{
+      opacity:0,
+      x:-1700,
     scrollTrigger: {
       trigger: timeline,
       start: "top+=4200px top",
-      end: "top+=4350px top",
+      end: "top+=4500px top",
       scrub: true,
       markers: true
     }
@@ -652,6 +656,594 @@ video.addEventListener("loadedmetadata", () => {
     }
   });
 
+    gsap.fromTo(".mask", {
+      opacity:1,},{
+      opacity:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4500px top",
+      end: "top+=4500px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+
+
+
+
+
+
+
+
+
+
+    gsap.fromTo(["#who_am_i_title","#who_am_i_text"],{
+    opacity:0,
+    x:100,
+    y:-300,} ,
+    {
+    opacity:1,
+    x:0,
+    y:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4200px top",
+      end: "top+=4500px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo(["#hobby_title","#hobby_text"],{
+    opacity:0,
+    x:-300,} ,
+    {
+    opacity:1,
+    x:0,
+    y:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4200px top",
+      end: "top+=4500px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo(["#skillset_title","#skillset_text"],{
+    opacity:0,
+    x:100,
+    y:300,} ,
+    {
+    opacity:1,
+    x:0,
+    y:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4200px top",
+      end: "top+=4500px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+
+
+
+    gsap.fromTo("#logo_L_left",{
+    opacity:0,
+    x:-100,
+    y:300,} ,
+    {
+    opacity:1,
+    x:0,
+    y:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4200px top",
+      end: "top+=4500px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_L_bottom",{
+    opacity:0,
+    x:300,} ,
+    {
+    opacity:1,
+    x:0,
+    y:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4200px top",
+      end: "top+=4500px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_A_slash",{
+    opacity:0,
+    x:-100,
+    y:-300,} ,
+    {
+    opacity:1,
+    x:0,
+    y:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4200px top",
+      end: "top+=4500px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_A_dash",{
+    opacity:0,
+    x:-300,} ,
+    {
+    opacity:1,
+    x:0,
+    y:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4200px top",
+      end: "top+=4500px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+
+
+
+
+
+    gsap.fromTo("#logo_L_left",{
+    scale:1,
+    x:0,
+    y:0,
+    rotation:0,} ,
+    {
+    scale:0.3,
+    x:0,
+    y:-300,
+    rotation:180,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4800px top",
+      end: "top+=5100px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_L_bottom",{
+    scale:1,
+    x:0,
+    y:0,
+    rotation:0,} ,
+    {
+    scale:0.3,
+    x:0,
+    y:-300,
+    rotation:180,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4800px top",
+      end: "top+=5100px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_A_slash",{
+    scale:1,
+    x:0,
+    y:0,
+    rotation:0,} ,
+    {
+    scale:0.3,
+    x:0,
+    y:-300,
+    rotation:180,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4800px top",
+      end: "top+=5100px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_A_dash",{
+    scale:1,
+    x:0,
+    y:0,
+    rotation:0,} ,
+    {
+    scale:0.3,
+    x:0,
+    y:-300,
+    rotation:180,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4800px top",
+      end: "top+=5100px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+
+
+
+
+    gsap.fromTo(["#who_am_i_title","#who_am_i_text"],{
+    opacity:1,
+    x:0,
+    y:0,} ,
+    {
+    opacity:0,
+    x:-100,
+    y:300,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4800px top",
+      end: "top+=5100px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo(["#hobby_title","#hobby_text"],{
+    opacity:1,
+    x:0,
+    y:0,} ,
+    {
+    opacity:0,
+    x:300,
+    y:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4800px top",
+      end: "top+=5100px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo(["#skillset_title","#skillset_text"],{
+    opacity:1,
+    x:0,
+    y:0,} ,
+    {
+    opacity:0,
+    x:-100,
+    y:-300,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4800px top",
+      end: "top+=5100px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+
+
+
+
+    gsap.fromTo("#contact_section",{
+    opacity:0,
+    x:0,
+    y:-200,} ,
+    {
+    opacity:1,
+    x:0,
+    y:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=4800px top",
+      end: "top+=5100px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+
+    gsap.fromTo("#contact_section",{
+    opacity:1,
+    x:0,
+    y:0,} ,
+    {
+    opacity:0,
+    x:0,
+    y:-200,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5400px top",
+      end: "top+=5550px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    gsap.fromTo("#logo_L_left",{
+    scale:0.3,
+    x:0,
+    y:-300,
+    rotation:180,
+    opacity:1,
+    } ,
+    {
+    opacity:0,
+    scale:0.6,
+    x:-33,
+    y:-200,
+    rotation:180,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5400px top",
+      end: "top+=5550px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_L_bottom",{
+    scale:0.3,
+    x:0,
+    y:-300,
+    rotation:180,
+    opacity:1,
+    } ,
+    {
+    opacity:0,
+    scale:0.6,
+    x:100,
+    y:-300,
+    rotation:180,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5400px top",
+      end: "top+=5550px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_A_slash",{
+    scale:0.3,
+    x:0,
+    y:-300,
+    rotation:180,
+    opacity:1,
+    } ,
+    {
+    opacity:0,
+    scale:0.6,
+    x:-33,
+    y:-400,
+    rotation:180,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5400px top",
+      end: "top+=5550px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_A_dash",{
+    scale:0.3,
+    x:0,
+    y:-300,
+    rotation:180,
+    opacity:1,
+    } ,
+    {
+    opacity:0,
+    scale:0.6,
+    x:-33,
+    y:-300,
+    rotation:180,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5400px top",
+      end: "top+=5550px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+
+
+
+
+
+
+
+    gsap.fromTo("#logo_L_left",{
+    scale:0.6,
+    x:100,
+    y:-300,
+    rotation:0,
+    opacity:1,
+    } ,
+    {
+    opacity:1,
+    scale:1,
+    x:0,
+    y:0,
+    rotation:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5550px top",
+      end: "top+=5700px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_L_bottom",{
+    scale:0.6,
+    x:-300,
+    y:0,
+    rotation:0,
+    opacity:1,
+    } ,
+    {
+    opacity:1,
+    scale:1,
+    x:0,
+    y:0,
+    rotation:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5550px top",
+      end: "top+=5700px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_A_slash",{
+    scale:0.6,
+    x:100,
+    y:300,
+    rotation:0,
+    opacity:1,
+    } ,
+    {
+    opacity:1,
+    scale:1,
+    x:0,
+    y:0,
+    rotation:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5550px top",
+      end: "top+=5700px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#logo_A_dash",{
+    scale:0.6,
+    x:300,
+    y:0,
+    rotation:0,
+    opacity:1,
+    } ,
+    {
+    opacity:1,
+    scale:1,
+    x:0,
+    y:0,
+    rotation:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5550px top",
+      end: "top+=5700px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    gsap.fromTo("#menu", {
+    opacity:1,},{
+    opacity:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5400px top",
+      end: "top+=5700px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("#foot_menu", {
+    opacity:0,
+    x:-100},{
+    opacity:1,
+    x:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5550px top",
+      end: "top+=5700px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+    gsap.fromTo("footer p", {
+    opacity:0,
+    x:100},{
+    opacity:1,
+    x:0,
+    scrollTrigger: {
+      trigger: timeline,
+      start: "top+=5550px top",
+      end: "top+=5700px top",
+      scrub: true,
+      markers: true
+    }
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -669,13 +1261,66 @@ document.querySelector("#menu-project")
   .addEventListener("click", () =>
     gsap.to(window, {
       duration: 1,
-      scrollTo: timeline.offsetTop + 1500,
+      scrollTo: timeline.offsetTop + 1501,
+      ease: "power2.out"
+    })
+  );
+
+document.querySelector("#menu-about")
+  .addEventListener("click", () =>
+    gsap.to(window, {
+      duration: 1,
+      scrollTo: timeline.offsetTop + 4600,
+      ease: "power2.out"
+    })
+  );
+
+document.querySelector("#menu-contact")
+  .addEventListener("click", () =>
+    gsap.to(window, {
+      duration: 1,
+      scrollTo: timeline.offsetTop + 5101,
       ease: "power2.out"
     })
   );
 
 
 
+document.querySelector("#f-menu-home")
+  .addEventListener("click", () =>
+    gsap.to(window, {
+      duration: 1,
+      scrollTo: timeline.offsetTop + 900,
+      ease: "power2.out"
+    })
+  );
+
+document.querySelector("#f-menu-project")
+  .addEventListener("click", () =>
+    gsap.to(window, {
+      duration: 1,
+      scrollTo: timeline.offsetTop + 1501,
+      ease: "power2.out"
+    })
+  );
+
+document.querySelector("#f-menu-about")
+  .addEventListener("click", () =>
+    gsap.to(window, {
+      duration: 1,
+      scrollTo: timeline.offsetTop + 4600,
+      ease: "power2.out"
+    })
+  );
+
+document.querySelector("#f-menu-contact")
+  .addEventListener("click", () =>
+    gsap.to(window, {
+      duration: 1,
+      scrollTo: timeline.offsetTop + 5101,
+      ease: "power2.out"
+    })
+  );
 
 
 
@@ -685,7 +1330,7 @@ document.querySelector("#kidkid_preview img")
   .addEventListener("click", () =>
     gsap.to(window, {
       duration: 1,
-      scrollTo: timeline.offsetTop + 1500,
+      scrollTo: timeline.offsetTop + 1799,
       ease: "power2.out"
     })
   );
@@ -694,7 +1339,7 @@ document.querySelector("#CFRoom_preview img")
   .addEventListener("click", () =>
     gsap.to(window, {
       duration: 1,
-      scrollTo: timeline.offsetTop + 2100,
+      scrollTo: timeline.offsetTop + 2399,
       ease: "power2.out"
     })
   );
@@ -703,7 +1348,7 @@ document.querySelector("#YY_preview img")
   .addEventListener("click", () =>
     gsap.to(window, {
       duration: 1,
-      scrollTo: timeline.offsetTop + 2700,
+      scrollTo: timeline.offsetTop + 2999,
       ease: "power2.out"
     })
   );
@@ -712,7 +1357,7 @@ document.querySelector("#obz_preview img")
   .addEventListener("click", () =>
     gsap.to(window, {
       duration: 1,
-      scrollTo: timeline.offsetTop + 3300,
+      scrollTo: timeline.offsetTop + 3599,
       ease: "power2.out"
     })
   );
@@ -721,10 +1366,63 @@ document.querySelector("#CC_preview img")
   .addEventListener("click", () =>
     gsap.to(window, {
       duration: 1,
-      scrollTo: timeline.offsetTop + 3900,
+      scrollTo: timeline.offsetTop + 4199,
       ease: "power2.out"
     })
   );
+
+
+
+
+
+const send = document.querySelector("#send");
+
+// hover in
+send.addEventListener("mouseenter", () => {
+  gsap.to(send, {
+    scale: 1.2,
+    duration: 0.3,
+    ease: "power2.out"
+  });
+});
+
+// hover out
+send.addEventListener("mouseleave", () => {
+  gsap.to(send, {
+    scale: 1,
+    duration: 0.3,
+    opacity:1,
+    ease: "power2.inOut"
+  });
+});
+
+// click (press)
+send.addEventListener("mousedown", () => {
+  gsap.to(send, {
+    scale: 0.8,
+    duration: 0.3,
+    opacity:0.5,
+  });
+});
+
+// release
+send.addEventListener("mouseup", () => {
+  gsap.to(send, {
+    scale: 1.2,
+    duration: 0.3,
+    opacity:1,
+  });
+});
+
+
+
+
+
+
+
+
+
+
 
 
 window.addEventListener("load", () => {
