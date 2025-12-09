@@ -10,7 +10,7 @@ const video = document.querySelector("#opening");
       start: "top+=600px top",
       end: "top+=900px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -24,7 +24,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top top",
       end: "top+=900px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -37,7 +37,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1200px top",
       end: "top+=1500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -55,7 +55,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1200px top",
       end: "top+=1500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -69,7 +69,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1350px top",
       end: "top+=1500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 // 
@@ -85,7 +85,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1200px top",
       end: "top+=1500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -101,7 +101,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1200px top",
       end: "top+=1500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -120,7 +120,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1800px top",
       end: "top+=2100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -137,7 +137,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1800px top",
       end: "top+=2100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 // 
@@ -149,7 +149,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1800px top",
       end: "top+=1950px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -163,7 +163,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1800px top",
       end: "top+=1950px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -178,7 +178,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1950px top",
       end: "top+=2100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -192,7 +192,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1950px top",
       end: "top+=2100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 // 
@@ -208,7 +208,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1800px top",
       end: "top+=2100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -224,7 +224,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=1800px top",
       end: "top+=2100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -243,7 +243,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=2400px top",
       end: "top+=2700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -260,7 +260,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=2400px top",
       end: "top+=2700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 // 
@@ -272,7 +272,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=2400px top",
       end: "top+=2550px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -286,7 +286,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=2400px top",
       end: "top+=2550px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -300,7 +300,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=2550px top",
       end: "top+=2700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -314,7 +314,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=2550px top",
       end: "top+=2700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 // 
@@ -330,7 +330,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=2400px top",
       end: "top+=2700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -346,7 +346,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=2400px top",
       end: "top+=2700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -365,7 +365,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3000px top",
       end: "top+=3300px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -382,7 +382,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3000px top",
       end: "top+=3300px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 // 
@@ -394,7 +394,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3000px top",
       end: "top+=3150px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -408,7 +408,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3000px top",
       end: "top+=3150px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -422,7 +422,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3150px top",
       end: "top+=3300px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -436,7 +436,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3150px top",
       end: "top+=3300px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 // 
@@ -452,7 +452,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3000px top",
       end: "top+=3300px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -468,7 +468,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3000px top",
       end: "top+=3300px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -487,7 +487,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3600px top",
       end: "top+=3900px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -504,7 +504,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3600px top",
       end: "top+=3900px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 // 
@@ -516,7 +516,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3600px top",
       end: "top+=3750px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -530,7 +530,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3600px top",
       end: "top+=3750px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -544,7 +544,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3750px top",
       end: "top+=3900px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -558,7 +558,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3750px top",
       end: "top+=3900px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 // 
@@ -574,7 +574,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3600px top",
       end: "top+=3900px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -590,7 +590,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=3600px top",
       end: "top+=3900px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -609,7 +609,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4200px top",
       end: "top+=4500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -626,7 +626,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4200px top",
       end: "top+=4500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 // 
@@ -640,7 +640,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4200px top",
       end: "top+=4500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -654,7 +654,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4200px top",
       end: "top+=4350px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -666,7 +666,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4500px top",
       end: "top+=4500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -693,7 +693,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4200px top",
       end: "top+=4500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -709,7 +709,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4200px top",
       end: "top+=4500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -726,7 +726,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4200px top",
       end: "top+=4500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -746,7 +746,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4200px top",
       end: "top+=4500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -762,7 +762,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4200px top",
       end: "top+=4500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -779,7 +779,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4200px top",
       end: "top+=4500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -795,7 +795,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4200px top",
       end: "top+=4500px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -819,7 +819,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4800px top",
       end: "top+=5100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -838,7 +838,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4800px top",
       end: "top+=5100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -857,7 +857,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4800px top",
       end: "top+=5100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -876,7 +876,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4800px top",
       end: "top+=5100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -897,7 +897,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4800px top",
       end: "top+=5100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -914,7 +914,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4800px top",
       end: "top+=5100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -931,7 +931,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4800px top",
       end: "top+=5100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -952,7 +952,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=4800px top",
       end: "top+=5100px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -970,7 +970,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5400px top",
       end: "top+=5550px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -1007,7 +1007,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5400px top",
       end: "top+=5550px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -1029,7 +1029,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5400px top",
       end: "top+=5550px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -1051,7 +1051,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5400px top",
       end: "top+=5550px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -1073,7 +1073,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5400px top",
       end: "top+=5550px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -1102,7 +1102,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5550px top",
       end: "top+=5700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -1124,7 +1124,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5550px top",
       end: "top+=5700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -1146,7 +1146,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5550px top",
       end: "top+=5700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -1168,7 +1168,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5550px top",
       end: "top+=5700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -1198,7 +1198,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5400px top",
       end: "top+=5700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -1212,7 +1212,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5550px top",
       end: "top+=5700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
@@ -1226,7 +1226,7 @@ video.addEventListener("loadedmetadata", () => {
       start: "top+=5550px top",
       end: "top+=5700px top",
       scrub: true,
-      markers: true
+      markers: false
     }
   });
 
